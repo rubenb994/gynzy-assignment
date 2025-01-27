@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:gynzy_assignment/quiz_screen.dart';
+
+import 'quiz_screen.dart';
+
 
 class QuizApp extends StatelessWidget {
+  const QuizApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Quiz App',
+      title: 'Gynzy',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: QuizScreen(),
     );
